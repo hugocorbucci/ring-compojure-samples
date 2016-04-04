@@ -16,7 +16,7 @@ rm -f ${OUTPUT_PATH}
 touch ${OUTPUT_PATH}
 
 echo "> PORT=3000 lein run -m ${TEST_NAME}"
-PORT=3000 lein run -m ${TEST_NAME} &
+PORT=3000 ./bin/lein run -m ${TEST_NAME} &
 
 sleep 10
 

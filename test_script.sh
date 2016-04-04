@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 
-mkdir -p tmp/
+./setup.sh
+
+./bin/lein deps
+
 ./run_test.sh "samples.minimal"
 ./run_test.sh "samples.with-middleware"
 ./run_test.sh "samples.with-compojure"
