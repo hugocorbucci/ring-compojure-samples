@@ -1,11 +1,15 @@
 #!/usr/bin/env bash
 
-./setup.sh
+MY_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-./bin/lein deps
+cd ${MY_DIR}
 
-./run_test.sh "samples.minimal"
-./run_test.sh "samples.with-middleware"
-./run_test.sh "samples.with-compojure"
-./run_test.sh "samples.without-compojure"
-./run_test.sh "samples.with-hiccup"
+${MY_DIR}/setup.sh
+
+${MY_DIR}/bin/lein deps
+
+${MY_DIR}/run_test.sh "samples.minimal"
+${MY_DIR}/run_test.sh "samples.with-middleware"
+${MY_DIR}/run_test.sh "samples.with-compojure"
+${MY_DIR}/run_test.sh "samples.without-compojure"
+${MY_DIR}/run_test.sh "samples.with-hiccup"
