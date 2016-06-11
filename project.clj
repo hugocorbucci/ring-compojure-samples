@@ -7,9 +7,9 @@
   :aot :all
   :dependencies [[org.clojure/clojure "1.8.0"]
     [compojure "1.5.0"]
-    [ring/ring-defaults "0.2.0"]
-    [ring/ring-core "1.4.0"]
-    [ring/ring-devel "1.4.0"]
+    [ring/ring-defaults "0.2.1"]
+    [ring/ring-core "1.5.0"]
+    [ring/ring-devel "1.5.0"]
     [http-kit "2.1.19"]
     [environ "1.0.3"]
     [hiccup "1.0.5"]]
