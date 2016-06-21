@@ -6,7 +6,7 @@
   :main samples.with-compojure
   :aot :all
   :dependencies [[org.clojure/clojure "1.8.0"]
-    [compojure "1.5.0"]
+    [compojure "1.5.1"]
     [ring/ring-defaults "0.2.1"]
     [ring/ring-core "1.5.0"]
     [ring/ring-devel "1.5.0"]

@@ -16,8 +16,7 @@ You can replace the argument after `-m` with any of the 5 samples available:
   * samples.without-compojure - A ring application that sets up routes without compojure's help for pure comparison
   * samples.with-hiccup - A ring application with compojure and hiccup to generate html.
 
-[//]: # (Add link to the blog post under blog.hugocorbucci.com)
-This code was released to support a blog post and therefore has a couple shell scripts to help run comparisons of the web responses provided by each sample.
+This code was released to support [a blog post](http://blog.hugocorbucci.com/post/developing-clojure) and therefore has a couple shell scripts to help run comparisons of the web responses provided by each sample.
 
 To run the full comparison, just run:
 
