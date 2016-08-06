@@ -11,7 +11,7 @@
     [ring/ring-core "1.5.0"]
     [ring/ring-devel "1.5.0"]
     [http-kit "2.2.0"]
-    [environ "1.0.3"]
+    [environ "1.1.0"]
     [hiccup "1.0.5"]]
   :dev-dependencies []
   :plugins [[lein-environ "1.0.2"]
