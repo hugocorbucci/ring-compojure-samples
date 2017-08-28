@@ -6,10 +6,10 @@
   :main samples.with-compojure
   :aot :all
   :dependencies [[org.clojure/clojure "1.8.0"]
-    [compojure "1.5.1"]
-    [ring/ring-defaults "0.2.1"]
-    [ring/ring-core "1.5.0"]
-    [ring/ring-devel "1.5.0"]
+    [compojure "1.6.0"]
+    [ring/ring-defaults "0.3.1"]
+    [ring/ring-core "1.6.2"]
+    [ring/ring-devel "1.6.2"]
     [http-kit "2.2.0"]
     [environ "1.1.0"]
     [hiccup "1.0.5"]]
